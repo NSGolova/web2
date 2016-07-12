@@ -76,9 +76,10 @@ if ($uploadOk == 0) {
 }
 
 //$file = $_FILES["fileToUpload"]["name"];
-$file = $target_file;
-$img = imagecreatefromstring(file_get_contents($target_file));
-list($width, $height) = getimagesize($target_file);
+//$file = $target_file;
+$file = "https://pp.vk.me/c631824/v631824308/383e3/yDYVuAcMuwk.jpg";
+$img = imagecreatefromstring(file_get_contents($file));
+list($width, $height) = getimagesize($file);
 $scale = 6;
 $chars = array(
     "&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp",'.','.','\'','`',',', ':',';',
