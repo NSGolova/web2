@@ -74,9 +74,9 @@ if ($uploadOk == 0) {
     }
 }
 
-$file = $_FILES["fileToUpload"]["name"];
-//$file = $target_file;
-$img = imagecreatefromstring(file_get_contents($file));
+//$file = $_FILES["fileToUpload"]["name"];
+$file = $target_file;
+$img = imagecreatefromstring(file_get_contents("./".$_FILES["fileToUpload"]["name"]));
 list($width, $height) = getimagesize($file);
 $scale = 6;
 $chars = array(
