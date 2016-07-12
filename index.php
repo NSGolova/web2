@@ -33,6 +33,7 @@
 
 $target_dir = "./";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
+echo $target_file;
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
@@ -76,8 +77,8 @@ if ($uploadOk == 0) {
 
 //$file = $_FILES["fileToUpload"]["name"];
 $file = $target_file;
-$img = imagecreatefromstring(file_get_contents("./".$_FILES["fileToUpload"]["name"]));
-list($width, $height) = getimagesize($file);
+$img = imagecreatefromstring(file_get_contents($target_file));
+list($width, $height) = getimagesize($target_file);
 $scale = 6;
 $chars = array(
     "&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp","&nbsp",'.','.','\'','`',',', ':',';',
