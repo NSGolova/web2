@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD482C4C1D37FD4400D017DF /* VRDModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD482C4B1D37FD4400D017DF /* VRDModelController.m */; };
+		BDEFFBBF1D368C76000D4DC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFFBBE1D368C76000D4DC0 /* AppDelegate.m */; };
+		BDEFFBC21D368C76000D4DC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFFBC11D368C76000D4DC0 /* main.m */; };
+		BDEFFBC41D368C76000D4DC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDEFFBC31D368C76000D4DC0 /* Assets.xcassets */; };
+		BDEFFBC71D368C76000D4DC0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDEFFBC51D368C76000D4DC0 /* MainMenu.xib */; };
+		BDEFFBD21D368C76000D4DC0 /* SuperChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFFBD11D368C76000D4DC0 /* SuperChatTests.m */; };
+		BDEFFBDD1D368C76000D4DC0 /* SuperChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFFBDC1D368C76000D4DC0 /* SuperChatUITests.m */; };
+		BDEFFBEC1D369523000D4DC0 /* VRDChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFFBEB1D369523000D4DC0 /* VRDChatController.m */; };
+		BDEFFBEF1D36BCC1000D4DC0 /* VRDChatController+Delegating.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEFFBEE1D36BCC1000D4DC0 /* VRDChatController+Delegating.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDEFFBCE1D368C76000D4DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEFFBB21D368C76000D4DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEFFBB91D368C76000D4DC0;
+			remoteInfo = SuperChat;
+		};
+		BDEFFBD91D368C76000D4DC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDEFFBB21D368C76000D4DC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDEFFBB91D368C76000D4DC0;
+			remoteInfo = SuperChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD482C4A1D37FD4400D017DF /* VRDModelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRDModelController.h; sourceTree = "<group>"; };
+		BD482C4B1D37FD4400D017DF /* VRDModelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRDModelController.m; sourceTree = "<group>"; };
+		BDEFFBBA1D368C76000D4DC0 /* SuperChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEFFBBD1D368C76000D4DC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDEFFBBE1D368C76000D4DC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDEFFBC11D368C76000D4DC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDEFFBC31D368C76000D4DC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDEFFBC61D368C76000D4DC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BDEFFBC81D368C76000D4DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEFFBCD1D368C76000D4DC0 /* SuperChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEFFBD11D368C76000D4DC0 /* SuperChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperChatTests.m; sourceTree = "<group>"; };
+		BDEFFBD31D368C76000D4DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEFFBD81D368C76000D4DC0 /* SuperChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDEFFBDC1D368C76000D4DC0 /* SuperChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperChatUITests.m; sourceTree = "<group>"; };
+		BDEFFBDE1D368C76000D4DC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDEFFBEA1D369523000D4DC0 /* VRDChatController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRDChatController.h; sourceTree = "<group>"; };
+		BDEFFBEB1D369523000D4DC0 /* VRDChatController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRDChatController.m; sourceTree = "<group>"; };
+		BDEFFBEE1D36BCC1000D4DC0 /* VRDChatController+Delegating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VRDChatController+Delegating.m"; sourceTree = "<group>"; };
+		BDEFFBF11D378885000D4DC0 /* VRDChatControllerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VRDChatControllerDelegate.h; sourceTree = "<group>"; };
+		BDEFFBF21D3795CA000D4DC0 /* VRDChatController+Delegating.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VRDChatController+Delegating.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDEFFBB71D368C76000D4DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEFFBCA1D368C76000D4DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEFFBD51D368C76000D4DC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDEFFBB11D368C76000D4DC0 = {
+			isa = PBXGroup;
+			children = (
+				BDEFFBBC1D368C76000D4DC0 /* SuperChat */,
+				BDEFFBD01D368C76000D4DC0 /* SuperChatTests */,
+				BDEFFBDB1D368C76000D4DC0 /* SuperChatUITests */,
+				BDEFFBBB1D368C76000D4DC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDEFFBBB1D368C76000D4DC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDEFFBBA1D368C76000D4DC0 /* SuperChat.app */,
+				BDEFFBCD1D368C76000D4DC0 /* SuperChatTests.xctest */,
+				BDEFFBD81D368C76000D4DC0 /* SuperChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDEFFBBC1D368C76000D4DC0 /* SuperChat */ = {
+			isa = PBXGroup;
+			children = (
+				BDEFFBEA1D369523000D4DC0 /* VRDChatController.h */,
+				BDEFFBEB1D369523000D4DC0 /* VRDChatController.m */,
+				BDEFFBBD1D368C76000D4DC0 /* AppDelegate.h */,
+				BDEFFBBE1D368C76000D4DC0 /* AppDelegate.m */,
+				BDEFFBC31D368C76000D4DC0 /* Assets.xcassets */,
+				BDEFFBC51D368C76000D4DC0 /* MainMenu.xib */,
+				BDEFFBC81D368C76000D4DC0 /* Info.plist */,
+				BDEFFBF21D3795CA000D4DC0 /* VRDChatController+Delegating.h */,
+				BDEFFBEE1D36BCC1000D4DC0 /* VRDChatController+Delegating.m */,
+				BDEFFBF11D378885000D4DC0 /* VRDChatControllerDelegate.h */,
+				BD482C4A1D37FD4400D017DF /* VRDModelController.h */,
+				BD482C4B1D37FD4400D017DF /* VRDModelController.m */,
+				BDEFFBC01D368C76000D4DC0 /* Supporting Files */,
+			);
+			path = SuperChat;
+			sourceTree = "<group>";
+		};
+		BDEFFBC01D368C76000D4DC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDEFFBC11D368C76000D4DC0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDEFFBD01D368C76000D4DC0 /* SuperChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEFFBD11D368C76000D4DC0 /* SuperChatTests.m */,
+				BDEFFBD31D368C76000D4DC0 /* Info.plist */,
+			);
+			path = SuperChatTests;
+			sourceTree = "<group>";
+		};
+		BDEFFBDB1D368C76000D4DC0 /* SuperChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDEFFBDC1D368C76000D4DC0 /* SuperChatUITests.m */,
+				BDEFFBDE1D368C76000D4DC0 /* Info.plist */,
+			);
+			path = SuperChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDEFFBB91D368C76000D4DC0 /* SuperChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEFFBE11D368C76000D4DC0 /* Build configuration list for PBXNativeTarget "SuperChat" */;
+			buildPhases = (
+				BDEFFBB61D368C76000D4DC0 /* Sources */,
+				BDEFFBB71D368C76000D4DC0 /* Frameworks */,
+				BDEFFBB81D368C76000D4DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperChat;
+			productName = SuperChat;
+			productReference = BDEFFBBA1D368C76000D4DC0 /* SuperChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDEFFBCC1D368C76000D4DC0 /* SuperChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEFFBE41D368C76000D4DC0 /* Build configuration list for PBXNativeTarget "SuperChatTests" */;
+			buildPhases = (
+				BDEFFBC91D368C76000D4DC0 /* Sources */,
+				BDEFFBCA1D368C76000D4DC0 /* Frameworks */,
+				BDEFFBCB1D368C76000D4DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEFFBCF1D368C76000D4DC0 /* PBXTargetDependency */,
+			);
+			name = SuperChatTests;
+			productName = SuperChatTests;
+			productReference = BDEFFBCD1D368C76000D4DC0 /* SuperChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDEFFBD71D368C76000D4DC0 /* SuperChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDEFFBE71D368C76000D4DC0 /* Build configuration list for PBXNativeTarget "SuperChatUITests" */;
+			buildPhases = (
+				BDEFFBD41D368C76000D4DC0 /* Sources */,
+				BDEFFBD51D368C76000D4DC0 /* Frameworks */,
+				BDEFFBD61D368C76000D4DC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDEFFBDA1D368C76000D4DC0 /* PBXTargetDependency */,
+			);
+			name = SuperChatUITests;
+			productName = SuperChatUITests;
+			productReference = BDEFFBD81D368C76000D4DC0 /* SuperChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDEFFBB21D368C76000D4DC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = golova;
+				TargetAttributes = {
+					BDEFFBB91D368C76000D4DC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BDEFFBCC1D368C76000D4DC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BDEFFBB91D368C76000D4DC0;
+					};
+					BDEFFBD71D368C76000D4DC0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BDEFFBB91D368C76000D4DC0;
+					};
+				};
+			};
+			buildConfigurationList = BDEFFBB51D368C76000D4DC0 /* Build configuration list for PBXProject "SuperChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDEFFBB11D368C76000D4DC0;
+			productRefGroup = BDEFFBBB1D368C76000D4DC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDEFFBB91D368C76000D4DC0 /* SuperChat */,
+				BDEFFBCC1D368C76000D4DC0 /* SuperChatTests */,
+				BDEFFBD71D368C76000D4DC0 /* SuperChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDEFFBB81D368C76000D4DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEFFBC41D368C76000D4DC0 /* Assets.xcassets in Resources */,
+				BDEFFBC71D368C76000D4DC0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEFFBCB1D368C76000D4DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEFFBD61D368C76000D4DC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDEFFBB61D368C76000D4DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD482C4C1D37FD4400D017DF /* VRDModelController.m in Sources */,
+				BDEFFBEF1D36BCC1000D4DC0 /* VRDChatController+Delegating.m in Sources */,
+				BDEFFBC21D368C76000D4DC0 /* main.m in Sources */,
+				BDEFFBEC1D369523000D4DC0 /* VRDChatController.m in Sources */,
+				BDEFFBBF1D368C76000D4DC0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEFFBC91D368C76000D4DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEFFBD21D368C76000D4DC0 /* SuperChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDEFFBD41D368C76000D4DC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDEFFBDD1D368C76000D4DC0 /* SuperChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDEFFBCF1D368C76000D4DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEFFBB91D368C76000D4DC0 /* SuperChat */;
+			targetProxy = BDEFFBCE1D368C76000D4DC0 /* PBXContainerItemProxy */;
+		};
+		BDEFFBDA1D368C76000D4DC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDEFFBB91D368C76000D4DC0 /* SuperChat */;
+			targetProxy = BDEFFBD91D368C76000D4DC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDEFFBC51D368C76000D4DC0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDEFFBC61D368C76000D4DC0 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDEFFBDF1D368C76000D4DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDEFFBE01D368C76000D4DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDEFFBE21D368C76000D4DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeouniversity.golova.SuperChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDEFFBE31D368C76000D4DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeouniversity.golova.SuperChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDEFFBE51D368C76000D4DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeouniversity.golova.SuperChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperChat.app/Contents/MacOS/SuperChat";
+			};
+			name = Debug;
+		};
+		BDEFFBE61D368C76000D4DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeouniversity.golova.SuperChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperChat.app/Contents/MacOS/SuperChat";
+			};
+			name = Release;
+		};
+		BDEFFBE81D368C76000D4DC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeouniversity.golova.SuperChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperChat;
+			};
+			name = Debug;
+		};
+		BDEFFBE91D368C76000D4DC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SuperChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zeouniversity.golova.SuperChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDEFFBB51D368C76000D4DC0 /* Build configuration list for PBXProject "SuperChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEFFBDF1D368C76000D4DC0 /* Debug */,
+				BDEFFBE01D368C76000D4DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEFFBE11D368C76000D4DC0 /* Build configuration list for PBXNativeTarget "SuperChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEFFBE21D368C76000D4DC0 /* Debug */,
+				BDEFFBE31D368C76000D4DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEFFBE41D368C76000D4DC0 /* Build configuration list for PBXNativeTarget "SuperChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEFFBE51D368C76000D4DC0 /* Debug */,
+				BDEFFBE61D368C76000D4DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDEFFBE71D368C76000D4DC0 /* Build configuration list for PBXNativeTarget "SuperChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDEFFBE81D368C76000D4DC0 /* Debug */,
+				BDEFFBE91D368C76000D4DC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDEFFBB21D368C76000D4DC0 /* Project object */;
+}
